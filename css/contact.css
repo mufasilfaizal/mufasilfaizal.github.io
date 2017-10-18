@@ -1,0 +1,174 @@
+body{
+  /** background-image: url(../img/backgrounddd.jpg); **/
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100%;
+}
+.container{
+  display: flex;
+}
+.box1{
+  position: relative;
+  width: 50%;
+  min-height: 100vh;
+  background-image: url(../img/about.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.box1 p{
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.box2{
+  background-image: url(../img/backgrounddd.jpg);
+  width: 50%;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+}
+.box2 h3{
+  margin-top: 50px;
+  margin-bottom: -21px;
+}
+.contact-form p:nth-of-type(1){
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.contact-form{
+  
+  text-align: left;
+  width: 68%;
+  margin: 45px auto 0 auto;
+}
+input:focus{
+  outline: none;
+}
+input{
+  padding: 2px;
+  border:none;
+  background-color: transparent;
+  border-bottom:1px solid white;
+}
+#name-id{
+  text-align: left;
+}
+#name,#email{
+  width: 100%;
+}
+.formbutton{
+  display: block;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  color: black;
+  margin: 25px auto 0 auto;
+  padding:5px 30px;
+  font-size: 15px;
+  transition: color 0.5s ease;
+  transition: background-color .7s ease;
+  border:1px solid transparent;
+}
+.formbutton:hover{
+   background-color: transparent;
+   color:white;
+   border: 0.1px solid white;
+}
+
+input {
+  list-style-type: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+textarea{
+  height: 150px;
+  width: 100%;
+  border:none;
+  background-color: transparent;
+  border-bottom:1px solid white;
+}
+textarea:focus{
+  outline: none;
+}
+.footer{
+  margin: 35px auto 0 auto;
+}
+.footer p{
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 20px;
+  }
+.footer p:nth-child(1):before{
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f10b";
+  font-size: 20px;
+  padding-right: 10px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  }
+.footer span:before{
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: 20px;
+  content: "\f0e0";
+  font-size: 5px;
+  font-size: 16px;
+  padding-right: 10px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  }
+
+
+
+
+.cl{
+ float: right;
+ margin-right: 20px;
+ margin-top: 20px;
+}
+.close {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.close span,.close span:before,.close span:after{
+  content:"";
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.close span:before{
+  top: 8px;
+}
+.close span:after{
+  top: -10px;
+}
+.close:hover span{
+  background: transparent;
+}
+.close:hover span:before,.close:hover span:after{
+  transform-origin: center;
+  transform: rotate(45deg);
+  top: 0;
+}
+.close:hover span:before{
+  transform-origin: center;
+  transform: rotate(-45deg);
+}
+.message{
+  font-size: 10px;
+ 
+}

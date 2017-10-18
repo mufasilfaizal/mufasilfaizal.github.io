@@ -1,0 +1,331 @@
+body{
+   /**background-color: red;**/
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  overflow: hidden;
+}
+html,body{
+  height:100%;
+}
+.container{
+  height: 100%;
+  display: flex;
+  
+}
+.typo-wrapper{
+  width: 35%;
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  margin: 0px;
+  box-shadow: 0px 0px 20px black;
+  background-image:url(../img/backgrounddd.jpg);
+  transition: 1s ease-in-out;
+}
+
+.typo p{
+  color: white;
+  margin: 0px;
+  font-size: 5vh;
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0%,-50%);
+  line-height: 6vh;
+
+}
+.typo span:nth-of-type(1){
+  font-size: 8vh;  
+}
+.typo span:nth-of-type(2){
+  font-size: 5vh;
+}
+.typo span:nth-of-type(3){
+  font-size: 5vh;
+}
+.typo span:nth-of-type(4){
+ 
+  font-size: 4.5vh;
+}
+.typo span:nth-of-type(5){
+  font-size: 7vh;
+}
+.typo span:nth-of-type(6){
+  font-size: 8vh;
+}
+.typo span:nth-of-type(7){
+  font-size: 8vh;
+ 
+}
+.typo span:nth-of-type(8){
+  
+  font-size: 4vh;
+}
+.links{
+  background-image: url(../img/backgroundd2.jpg);
+  top:0;
+  z-index:0;
+  width: 65%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  perspective: 1000px;
+  transition: 0.3s ease;
+}
+.main-line{
+  width: 2px;
+  height: 80px;
+  background-color: #202020;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.links-container{
+  display: inline-block;
+  width: 360px;
+  text-align: center;
+}
+.links-container a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: .3s ease;
+}
+.links-container a:hover{
+  transform: scale(1.2);
+
+}
+.circle{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.links-wrapper{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.logo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  content: url(../img/mufasil.svg);
+  color:black;
+  display: inline-block;
+}
+.headings{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  
+}
+.headings p{
+  margin: 30px;
+  font-size: 15px;
+  transition: 1s ease-in-out;
+}
+
+.headings a{
+  display: inline-block;
+  color: white;
+  text-decoration:none;
+  margin: 30px;
+  transition: 0.3s ease-in-out;
+}
+.headings a:hover{
+  transform: scale(1.1);
+}
+.headings a:before{
+  font-family: Fontawesome;
+  content: "\f007";
+  color: white;
+  font-size: 13px;
+  margin-right: 5px;
+}
+.social{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  
+}
+.social a{
+  display: inline-block;
+  margin: 0;
+  text-decoration:none;
+  padding-right: 20px;
+  transition: 1s ease;
+}
+
+.social i{
+  font-size: 20px;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.social i:hover{
+  transform: scale(1.2);
+}
+.about,.work,.contact{
+  color: white;
+}
+.work span{
+  height: 80px;
+  width: 2px;
+  margin: 0 3px 0 3px ;
+  background-color: white;
+  display: inline-block;
+}
+.work a{
+  padding: 0;
+  font-size: 50px;
+  transition: 1s ease-in-out;
+}
+
+.work p{
+  font-size: 10px;
+}
+.about{
+  margin-top: -14px;
+  margin-left: 70px;
+}
+.about p{
+  position: relative;
+  font-size: 10px;
+  bottom: 10px;
+  left: -125px;
+}
+.about a{
+  padding: 0;
+  font-size: 50px;
+ transition: 1s ease-in-out;
+}
+
+.about-line{
+  width: 125px;
+  height: 2px;
+  background-color: white;
+  display: inline-block;
+}
+.contact{
+  margin-left: 21px;
+  margin-top: -2px;
+}
+.contact p{
+  font-size: 10px;
+  display: block;
+  color: white;
+  position: relative;
+  top: -30px;
+  left: 8px;
+}
+.contact-line{
+  width: 2px;
+  height: 90px;
+  background-color: white;
+  float: left;
+  vertical-align: top;
+}
+.contact a{
+  padding: 0;
+  display: block;
+  font-size: 50px;
+  position: relative;
+  top: -11px;
+  left: 6px;
+  transition: 1s ease-in-out;
+}
+
+@media only screen and (max-width: 670px) {
+  .headings p,.links-container,.headings a,.social i  {
+    font-size: 2vw;
+  }
+}
+
+
+
+
+
+/*
+
+ float: right;
+ border:1px solid red;
+  content: url("../img/shams.svg");
+   background-image:url(../img/backgrounddd.jpg);
+
+
+  <div class="links-wrapper">
+                    <div class="work"> 
+                        <a href=""> WORK</a>  <span></span> <p style="display: inline-block;">CHECK OUT <br> SOME OF THE <br> WORKS <br> THAT I DID </p>
+                    </div>
+                    <div class="about">
+                        <a href=""> about</a>  <div class="about-line"></div> <p style="display: inline-block;"> A BIT ABOUT ME</p>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-line"></div> <a href=""> CONTACT </a>   <p style="display: inline-block;">HIT ME UP EVEN FOR A HELLO</p>
+                    </div>
+                </div>
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .pendulam{
+  animation: swing 3s infinite ease-in-out alternate;
+  transform-origin: 50% 0%;
+}
+
+@-webkit-keyframes swing{
+  from{
+    transform: rotate(5deg);
+    }
+    
+    to{
+     transform: rotate(-10deg);
+      }
+  }
+
+*/

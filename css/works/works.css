@@ -1,0 +1,229 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.work-wrapper{
+ 
+}
+.work-box{
+  height: 100vh;
+  width:25%;
+  background-image: url(../../img/backgrounddd.jpg);
+  position: fixed;
+  right: 0;
+  box-shadow: 0px 0px 20px black;
+}
+.works{
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  text-decoration: none;
+  color: white;
+}
+.cl{
+ float: right;
+ margin-right: 20px;
+ margin-top: 20px;
+}
+.close {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.close span,.close span:before,.close span:after{
+  content:"";
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.close span:before{
+  top: 8px;
+}
+.close span:after{
+  top: -10px;
+}
+.close:hover span{
+  background: transparent;
+}
+.close:hover span:before,.close:hover span:after{
+  transform-origin: center;
+  transform: rotate(45deg);
+  top: 0;
+}
+.close:hover span:before{
+  transform-origin: center;
+  transform: rotate(-45deg);
+}
+.works-content{
+  
+  width: 75%;
+}
+.eassa{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.eassa-des{
+  width: 50%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+.eassa-des h4{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  transition: 0.3s ease-in;
+}
+.eassa-des p{
+  text-align:center;
+  margin:0 40px 0 40px;
+}
+.eassa-content{
+  width: 50%;
+  height: 100%;
+  background-image: url(../../img/eassa.png);
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  transition: 3s ease-in;
+  background-size: 150%;
+}
+.eassa-content:hover{
+  background-size: 110%;
+  background-position: center center;
+}
+.aveios{
+  height: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.aveios-des{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  
+}
+.aveios-des h4{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  transition: 0.3s ease-in;
+}
+.aveios-des h4:hover{
+  transform: scale(1.1);
+}
+.inceptra-des h4:hover{
+  transform: scale(1.1);
+}
+.eassa-des h4:hover{
+  transform: scale(1.1);
+}
+.aveios-des p{
+  text-align:center;
+
+  margin:0 40px 0 40px;
+}
+.aveios-content{
+  width: 50%;
+  height: 100%;
+  background-image: url(../../img/aveios.png);
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  background-position: left top;
+  transition: 3s ease-in;
+  background-size: 150%;
+
+}
+.aveios-content:hover{
+  background-size: 110%;
+  background-position: center center;
+}
+.inceptra{
+  height: 400px;
+  display: flex;
+}
+.inceptra-des{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}
+.inceptra-des h4{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  transition: 0.3s ease-in;
+}
+.inceptra-des p{
+   text-align:center;
+
+  margin:0 40px 0 40px;
+}
+.inceptra-content{
+  width: 50%;
+  height: 100%;
+  background-image: url(../../img/inceptra.png);
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  background-position: left top;
+  transition: 3s ease-in;
+  background-size: 150%;
+}
+.inceptra-content:hover{
+  background-size: 110%;
+  background-position: center center;
+}
+.randomworks {
+
+  overflow: auto;
+}
+.heading{
+  color: black;
+  margin: 50px 0 0 0;
+  overflow: auto;
+}
+.heading h2{
+  text-align: center;
+  margin-top: 33px;
+  font-size: 50px;
+}
+.randomworks h2{
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 90px;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
