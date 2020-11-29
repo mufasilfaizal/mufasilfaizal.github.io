@@ -13,6 +13,7 @@
     {"id":3, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Amsterdam","country":"London","image":"london","ip":"188.166.73.113","active":"true","signal":"a"}
+    {"id":0, "file":0, "city":"Amsterdam","country":"Germany","image":"germany","ip":"188.166.73.113","active":"true","signal":"a"},
+    {"id":0, "file":0, "city":"Amsterdam","country":"London","image":"london","ip":"188.166.73.113","active":"true","signal":"b"}
   ]
 }
