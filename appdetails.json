@@ -4,7 +4,7 @@
     "version":"1.0.1",
     "title":"Enjoy unlimited browsing!",
     "description":"Unblock websites now get easier.",
-    "size":""
+    "size":"10MB"
   }],
   "blocked":[
     {"id":0, "app":"com.utorrent.client"},
